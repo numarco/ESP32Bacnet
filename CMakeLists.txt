@@ -6,3 +6,11 @@ cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(Esp32Bacnet)
+
+if(ESP_PLATFORM)
+	# Build ArduinoJson as an ESP-IDF component
+	idf_component_register(INCLUDE_DIRS src)
+	return()
+endif()
+
+add_subdirectory(src)
