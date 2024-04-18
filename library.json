@@ -9,6 +9,17 @@
   },
   "license": "MIT",
   "dependencies": {},
-  "frameworks": "espressif32",
-  "platforms": "arduino"
+  "homepage": "https://example.com",
+  "authors": {
+    "name": "Marco",
+    "url": "https://example.com"
+  },
+  "export": {
+    "include": ["src", "examples", "LICENSE.txt", "ESP32Bacnet.h"]
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {
+    "libArchive": false
+  }
 }
