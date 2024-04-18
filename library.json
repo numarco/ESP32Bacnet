@@ -1,0 +1,14 @@
+{
+  "name": "Esp32Bacnet",
+  "version": "1.0.0",
+  "description": "bacnet stack integration with esp32",
+  "keywords": "bacnet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NegawattBOS/Esp32Bacnet.git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "frameworks": "espressif32",
+  "platforms": "arduino"
+}
