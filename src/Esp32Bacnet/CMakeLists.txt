@@ -113,3 +113,4 @@ idf_component_register(
 "wp.c"
 "wpm.c"
     INCLUDE_DIRS "include")
+include_directories("${CMAKE_SOURCE_DIR}/Esp32Bacnet/include")
