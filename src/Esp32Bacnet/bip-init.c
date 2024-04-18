@@ -34,7 +34,7 @@
 
 #include <stdint.h>     /* for standard integer types uint8_t etc. */
 #include <stdbool.h>    /* for the standard bool type. */
-#include <debug.h>
+#include "debug.h"
 #include "bacdcode.h"
 #include "bip.h"
 #include "net.h"
